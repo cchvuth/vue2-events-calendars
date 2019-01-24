@@ -53,15 +53,15 @@
     "vue2-events-calendar"
   ],
   "main": "dist/index.js",
-  "name": "@mango-byte/vue2-events-calendars",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Syvai/vue2-events-calendar.git"
-  },
+  "name": "mbyte-vue-2-events-calendar",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot"
   },
-  "version": "1.0.2",
-  "license": "ISC"
+  "version": "1.0.4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cchvuth/vue2-events-calendars.git"
+  }
 }

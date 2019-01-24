@@ -167,16 +167,16 @@
 .__vev_calendar-wrapper .cal-wrapper .cal-body .dates .icon{
     background-repeat:no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: auto;
-    background-position:left 0px top 30px,
-                        left 35px top 30px,
-                        left 70px top 30px,
-                        left 105px top 30px,
-                        left 0px top 60px,
-                        left 35px top 60px,
-                        left 70px top 60px,
-                        left 105px top 60px,
-                        left 70px top 0px,
-                        left 105px top 0px;
+    background-position:left 34% top 43%,
+                        left 0% top 43%,
+                        left 68% top 43%,
+                        left 102% top 43%,
+                        left 0% top 95%,
+                        left 34% top 95%,
+                        left 68% top 95%,
+                        left 102% top 95%,
+                        left 68% top 0%,
+                        left 102% top 0%;
 }
 .__vev_calendar-wrapper .cal-wrapper .cal-body .dates .saturday{
     background-color:#b8d271;
