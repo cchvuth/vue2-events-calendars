@@ -1,4 +1,3 @@
-/* eslint-disable */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -657,7 +656,7 @@ var inBrowser = typeof window !== 'undefined';
       return date.getMonth() + 1;
     },
     curYearMonth: function curYearMonth() {
-      var tempDate = Date.parse(new Date(this.calendar.params.curYear + '-' + (this.calendar.params.curMonth + 1) + '-01'));
+      var tempDate = Date.parse(new Date(this.calendar.params.curYear + '/' + (this.calendar.params.curMonth + 1) + '/01'));
       return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__tools_js__["b" /* dateTimeFormatter */])(tempDate, this.i18n[this.calendar.options.locale].format);
     },
     customColor: function customColor() {
@@ -1041,7 +1040,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, _vm._l((_vm.dayList), function(date) {
     let currentDate = date.date.split('-')
     currentDate = currentDate[0] + '-' + ('00' + currentDate[1]).slice(-2) + '-' + ('00' + currentDate[2]).slice(-2) + 'T00:00:00.000Z'
-    let eveObj = _vm.events.filter(event => event.date.match(currentDate))
+    let eveObj = _vm.events.filter(function (event) {
+      if (event.date == currentDate) return event
+    })
     let icons = ''
     for (let i = 0; i< eveObj.length; i++) {
       if (i!= 0) icons += ','

@@ -53,12 +53,12 @@
     "vue2-events-calendar"
   ],
   "main": "dist/index.js",
-  "name": "mbyte-vue-2-events-calendar",
+  "name": "@ccvuth/vue2-events-calendars",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "repository": {
     "type": "git",
