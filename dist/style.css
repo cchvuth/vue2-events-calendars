@@ -33,6 +33,20 @@
         margin-top:10px;
         padding:10px
     }
+    .__vev_calendar-wrapper .cal-wrapper .cal-body .dates .icon{
+        background-repeat:no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-size: 23px!important;
+        background-position:left 50% top 33%,
+                            left 0% top 33%,
+                            left 100% top 33%,
+                            left 50% top 63%,
+                            left 0% top 63%,
+                            left 100% top 63%,
+                            left 50% top 93%,
+                            left 0% top 93%,
+                            left 100% top 93%,
+                            left 90% top 10%!important;
+    }
 }
 .__vev_calendar-wrapper{
     position:relative;
@@ -166,13 +180,13 @@
 }
 .__vev_calendar-wrapper .cal-wrapper .cal-body .dates .icon{
     background-repeat:no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: 35px;
+    background-size: 32px;
     background-position:left 34% top 43%,
                         left 0% top 43%,
                         left 68% top 43%,
                         left 102% top 43%,
-                        left 0% top 95%,
                         left 34% top 95%,
+                        left 0% top 95%,
                         left 68% top 95%,
                         left 102% top 95%,
                         left 68% top 0%,

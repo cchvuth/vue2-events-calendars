@@ -1048,6 +1048,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       if (i!= 0) icons += ','
       if (eveObj[i].icon) icons+= 'url(' + eveObj[i].icon + ')'
     }
+    if (!date.icon) date.icon = ''
     return _c('div', {
       key: date.date,
       staticClass: "item",
